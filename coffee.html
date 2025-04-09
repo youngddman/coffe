@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarone coffee hub</title>
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="brew">
+       <h1>Savor the<br>Perfect Brew!</h1>
+       <p class="hd1">Good ideas starts with a good coffee<br><br>
+       <b>More espresso! Less depresso!</b>
+       </p>
+       <button class="btn"><a href="#" class="btn1">Create Account</a></button>
+    </section>
+
+    <!-- img galarry -->
+     <div class="us">
+       <p><span class="fet">FEATURED</span></p> 
+             <h2 class="cho"> Why Choose Us?</h2>
+        <p class="story">Share what makes you stand out as a coffee shop.<br>
+             A unique selling point for a coffee shop can be one<br> of the beverages or<br>
+             vegan alternatives in the coffee shop.<br>
+             Themes of the coffee places are one another<br> unique selling point of the shop.<br>
+             Depending on what the USP is of your coffee shop. </p>
+        <img src="coffee/Forget Starbucks_ How To Make A Delicious Latte At Home.jpg"alt="cup of coffee"
+        width="600" height="400">
+     </div>
+
+     <section class="gal">
+      <div class="galarry">
+        <img src="coffee/Cappuccino.jpg"alt="cup of Cappuccino" width="600" height="400">
+
+        <div class="des">
+            Cappuccino is an espresso-based coffee drink traditionally 
+            prepared with steamed milk,including a layer of milk foam. 
+        </div>
+      </div>
+
+      <div class="galarry">
+        <img src="coffee/Hot Coffee Capuccino Cup With Latte Art On Wood Table At Cafe _ Premium AI-generated image.jpg"
+        alt="cup of Expresso" width="600" height="400">
+
+         <div class="des">
+            Espresso is a concentrated form of coffee produced 
+            by forcing hot water under high pressure through 
+            finely ground coffee beans.
+         </div>
+      </div>
+
+      <div class="galarry">
+        <img src="coffee/GGM GASTRO _ Kaffeemühle - 2kg - 77dB - Mit Dosierer - Gold.jpg"
+        alt="cup of Latte" width="600" height="400">
+
+        <div class="des">
+            A latte, or caffè latte, is a coffee beverage made with espresso,
+             steamed milk, and a thin layer of frothed milk,
+              resulting in a balanced, creamy, and smooth-tasting drink
+        </div>
+      </div>
+       
+      <div class="galarry">
+        <img src="coffee/Whipped Coffee (Dalgona Coffee)  Creamy and Frothy….jpg"
+        alt="Nitro cold brew"
+          width="600" height="400">
+
+          <div class="des">
+            Nitro Cold Brew Coffee contains nothing more than ground coffee,
+             water, and nitrogen. No sugar, no milk, or other additives. 
+          </div>
+      </div>
+    </section>
+
+     <footer> 
+        <div class="footer">
+            <p class="contact"> You can contact us through our email or<br>
+            any of our social media platform.<br><br>
+            <a href="x.com">X</a>
+            <a href="instagram.com">Instagram</a>
+            <a href="facebook.com">Facebook</a>
+        </p>
+            <p class="copyrihgt">Copyright 2025 Sarone coffee hub, All Right Reserved.
+                <span class="copy1">Privacy Policy</span></p>
+        </div>
+     </footer> 
+</body>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+     body{  
+         background-color: antiquewhite; 
+     } 
+    ul{
+        margin-left: 450px;
+        padding-top: 15px;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    li{
+    display: inline;
+}
+@media (max-width: 800px){
+    ul{
+        margin: 0;
+    }
+}
+.brew{
+    background-image: url(coffee/Coffee\ beans\ with\ props\ for\ making\ c\ stock\ photo….jpg);
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+    height: 100vh;
+}
+@media (max-width: 800px){
+    .brew{
+        background-image: url(coffee/Free\ Photo\ _\ Roasted\ coffee\ beans\ with\ accessories.jpg);
+    }
+}
+h1{
+    font-size: 45px;
+    color: white; 
+    padding-left: 200px;
+    padding-top: 200px;
+}
+@media (max-width: 800px){
+    h1{
+        font-size: 30px;
+        padding-left: 100px;
+        padding-top: 250px;
+    }
+}
+.hd1{
+    color: white; 
+    padding-left: 200px;
+    margin-top: 40px; 
+}
+@media (max-width: 800px){
+    .hd1{
+        padding-left: 100px;
+    }
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: rgba(0, 0, 0, 0.314); 
+    width: 150px;
+    height: 45px;
+
+}
+.btn1{
+    text-decoration: none;
+     color: aliceblue; 
+} 
+.us{
+    background-color: bisque;
+}
+ .galarry{ 
+   margin: 5px;  
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+   width: 180px;
+ } 
+.galarry img{ 
+    width: 100%; 
+    height: auto; 
+ } 
+ 
+.gal{ 
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+@media (max-width: 800px) {
+  .gal {
+    flex-direction: column;
+  }
+}
+.us img{ 
+     margin-left: 680px; 
+     margin-top: -240px;
+     width: 350px; 
+     height: 300px; 
+} 
+@media (max-width: 800px) {
+  .us{
+   max-width: 250px;
+   max-height: 550px;
+  }
+}
+@media (max-width: 800px){
+    .us img{
+       margin: 0;
+       max-width: 250px;
+       max-height: 190px;
+    }
+}
+
+.story{ 
+     margin-left: 280px;  
+     margin-top: 40px;  
+} 
+
+.cho{ 
+    margin-left: 300px;  
+      margin-top: 30px;  
+     font-size: 30px; 
+} 
+@media (max-width: 800px) {
+    .cho, .story {
+        margin: 0;
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+.fet{ 
+     font-size: 15px; 
+     margin-left:280px;   
+ } 
+ @media (max-width: 800px){
+    .fet{
+        margin: 0;
+    }
+ }
+ .footer{
+    background-color: rgba(165, 42, 42, 0.573);
+ }
+ .copy1{
+        float: right;
+        color: white;
+        padding-right: 120px;
+    }
+    .copyrihgt {
+        color: white;
+        padding-left:120px;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        font-size: 15px;
+    }
+    @media (max-width: 800px){
+        .copyrihgt{
+            padding-left:10px;
+            padding-bottom: 30px;
+        }
+    }
+
+    .contact{
+        margin-left: 500px;
+        padding-top: 50px;
+        color: white;
+    }
+    @media (max-width: 800px){
+        .contact{
+            margin-left: 0;
+            padding-top: 0;
+        }
+    }
+
+</style>
+</html>
